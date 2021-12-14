@@ -20,29 +20,22 @@ python manage.py startapp xx
 python3 manage.py startapp xx
 ```
 solution: 
-```
-python3.8 manage.py startapp xx
-```
+`python3.8 manage.py startapp xx`
+
 
 ---
 
 Dec.11 pip can't install phonenumberfiled
 problem code:
-```
-pip install django-phonenumber-filed[phonenumbers]
-``
+`pip install django-phonenumber-filed[phonenumbers]`
 solution:
-```
-pip install 'django-phonenumber-filed[phonenumbers]'
-```
+`pip install 'django-phonenumber-filed[phonenumbers]`
 
 ---
 
 Dec.11 venv can't install restframework
 problem code:
-```
-python -m pip install djangorestframework
-```
+`python -m pip install djangorestframework`
 solution:
 ```
 python3 -m venv env
@@ -59,7 +52,9 @@ canDelete = False
 ...
 ordering = ['canDelete']
 ```
+
 solution:
+
 ```
 canDelete = models.BooleanField(..)
 ...
@@ -70,9 +65,7 @@ ordering = ['canDelete']
 
 Dec.12 Error: port 8000 are in use
 solution:
-```
-python3.8 manage.py runserver 8080    // can be various port, or kill
-```
+`python3.8 manage.py runserver 8080    // can be various port, or kill`
 
 ---
 
@@ -87,25 +80,24 @@ pip install in env and runserver in env
 Dec.13 canDelete can't be transit from POST response
 problem code:
 in view.py
-```
-canDelete = request.POST['canDelete']
-```
+`canDelete = request.POST['canDelete']`
 solution:
-```
-canDelete = request.POST.get('canDelete', False)   // because it's a boolean filed
-```
+`canDelete = request.POST.get('canDelete', False)   // because it's a boolean filed`
 
 ---
 
 Dec.13 MultiDicKey - Several buttons in edit page
 problem code:
+
 ```
 if request.POST.has_key('update'):
 
 if request.POST.has_key('delete'):
 ```
+
 solution:
 Python3 delete the function: has_key!
+
 ```
 if 'update' in request.POST:
 
