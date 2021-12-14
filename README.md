@@ -13,8 +13,9 @@ I know the cost time may be very long, because I started from 0, and I recorded 
 
 I really hope you can see my attitude and my sincerity. I can do my best to learn the unknown knowledge. This is my attitude. I hope you can give me a chance to prove myself.
 
-## bug log
-Dec. 11 venv can't execute manage.py
+## Bug Log
+
+### Dec. 11 venv can't execute manage.py
 
 problem code: 
 
@@ -30,7 +31,7 @@ solution:
 
 ---
 
-Dec.11 pip can't install phonenumberfiled
+### Dec.11 pip can't install phonenumberfiled
 
 problem code:
 
@@ -42,7 +43,7 @@ solution:
 
 ---
 
-Dec.11 venv can't install restframework
+### Dec.11 venv can't install restframework
 
 problem code:
 
@@ -58,7 +59,7 @@ python3.8 -m pip install djangorestframework
 
 ---
 
-Dec.12 ordering can't recognize the var
+### Dec.12 ordering can't recognize the var
 
 problem code:
 
@@ -78,7 +79,7 @@ ordering = ['canDelete']
 
 ---
 
-Dec.12 Error: port 8000 are in use
+### Dec.12 Error: port 8000 are in use
 
 solution:
 
@@ -86,7 +87,7 @@ solution:
 
 ---
 
-Dec.13 there's no module called: pymysql
+### Dec.13 there's no module called: pymysql
 
 problem:
 
@@ -98,7 +99,7 @@ pip install in env and runserver in env
 
 ---
 
-Dec.13 canDelete can't be transit from POST response
+### Dec.13 canDelete can't be transit from POST response
 
 problem code:
 
@@ -112,7 +113,7 @@ solution:
 
 ---
 
-Dec.13 MultiDicKey - Several buttons in edit page
+### Dec.13 MultiDicKey - Several buttons in edit page
 
 problem code:
 
