@@ -1,0 +1,23 @@
+1. Home page - check the hint bar number is 1 (admin)
+
+2. Add page - add test1 who can be deleted
+
+3. Home page - check the hint bar number is 2 and test1 appears
+
+4. Add page - add test2 who can't be deleted
+
+5. Home page - check the hint bar number is 3 and test2 appears
+
+6. Edit page - update test1 to test3 who can be deleted
+
+7. Home page - check the hint bar number is 3 and test3 appears
+
+8. Edit page - delete test3
+
+9. Home page - check the hint bar number is 2 and test3 deleted
+
+10. Edit page - delete test2
+
+11. Home page - check the hint bar number is 2 and test2 not deleted
+
+==test finish==
