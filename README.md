@@ -113,7 +113,7 @@ solution:
 
 ---
 
-### Dec.13 MultiDicKey - Several buttons in edit page
+### Dec.13 Exception: MultiDictKey - Several buttons in edit page
 
 problem code:
 
