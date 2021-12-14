@@ -1,8 +1,9 @@
 # Team Member Project
-a mobile app by `Django`, `MySQL` and `HTML`, using python virtual environment
+a mobile app by `Django`, `MySQL` and `HTML`, using python virtual environment.
 
 ## Estimated Time
 15 hrs
+
 5 hrs / day (Dec.11 - Dec.13) 
 
 ## About
@@ -14,29 +15,41 @@ I really hope you can see my attitude and my sincerity. I can do my best to lear
 
 ## bug log
 Dec. 11 venv can't execute manage.py
+
 problem code: 
+
 ```
 python manage.py startapp xx
 python3 manage.py startapp xx
 ```
+
 solution: 
+
 `python3.8 manage.py startapp xx`
 
 
 ---
 
 Dec.11 pip can't install phonenumberfiled
+
 problem code:
+
 `pip install django-phonenumber-filed[phonenumbers]`
+
 solution:
+
 `pip install 'django-phonenumber-filed[phonenumbers]`
 
 ---
 
 Dec.11 venv can't install restframework
+
 problem code:
+
 `python -m pip install djangorestframework`
+
 solution:
+
 ```
 python3 -m venv env
 source ./env/bin/activate    // start again
@@ -46,7 +59,9 @@ python3.8 -m pip install djangorestframework
 ---
 
 Dec.12 ordering can't recognize the var
+
 problem code:
+
 ```
 canDelete = False
 ...
@@ -64,29 +79,41 @@ ordering = ['canDelete']
 ---
 
 Dec.12 Error: port 8000 are in use
+
 solution:
+
 `python3.8 manage.py runserver 8080    // can be various port, or kill`
 
 ---
 
 Dec.13 there's no module called: pymysql
+
 problem:
+
 Anaconda in base, although pip install, VSCode can't find the site-package
+
 solution:
+
 pip install in env and runserver in env
 
 ---
 
 Dec.13 canDelete can't be transit from POST response
+
 problem code:
+
 in view.py
+
 `canDelete = request.POST['canDelete']`
+
 solution:
+
 `canDelete = request.POST.get('canDelete', False)   // because it's a boolean filed`
 
 ---
 
 Dec.13 MultiDicKey - Several buttons in edit page
+
 problem code:
 
 ```
@@ -96,6 +123,7 @@ if request.POST.has_key('delete'):
 ```
 
 solution:
+
 Python3 delete the function: has_key!
 
 ```
@@ -106,7 +134,11 @@ if 'delete' in request.POST:
 
 
 ## Further Upgrade
+
 design radio_customer
+
 write unittest
+
 add can't delete hint message
+
 add more pages
