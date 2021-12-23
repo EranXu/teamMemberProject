@@ -25,6 +25,8 @@ The initial page:
 
 When we add a valid member:
 
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.40.12%20AM.png" width="375" alt="add page"/></div>
+
 <div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.25%20AM.png" width="375" alt="adding a member"/></div>
 
 When we add a invalid member:
