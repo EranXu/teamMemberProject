@@ -21,17 +21,19 @@ If the input is invalid, the app will redirect to the current page, and the erro
 
 The initial page:
 
-<img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.51%20AM.png" width="375" alt="home page"/>
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.51%20AM.png" width="375" alt="home page"/></div>
 
 When we add a valid member:
 
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.25%20AM.png" width="375" alt="adding a member"/></div>
 
 When we add a invalid member:
 
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.14.07%20AM.png" width="375" alt="invalid format of email"/></div>
 
 The wrong message:
 
-
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.14.29%20AM.png" width="500" alt="the form can check the invalid input"/></div>
 
 ## Bug Log
 
