@@ -1,4 +1,4 @@
-# Team Member Project
+# Team Member Project - Ver 2.0
 a mobile app by `Django`, `MySQL` and `HTML`, using python virtual environment.
 
 ## Estimated Time
@@ -12,6 +12,25 @@ Although there is no deadline for this project, I want to complete it as quickly
 I know the cost time may be very long, because I started from 0, and I recorded all the problems I encountered. Almost every problem allows me to deal with more than 1 hour. But I finally finished it:)
 
 I really hope you can see my attitude and my sincerity. I can do my best to learn the unknown knowledge. This is my attitude. I hope you can give me a chance to prove myself.
+
+## Version 2.0
+
+Adding ModelForm into the project, it can check the field of input.
+
+If the input is invalid, the app will redirect to the current page, and the error message will show in the venv.
+
+The initial page:
+
+
+When we add a valid member:
+
+
+When we add a invalid member:
+
+
+The wrong message:
+
+
 
 ## Bug Log
 
