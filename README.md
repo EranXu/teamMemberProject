@@ -21,7 +21,7 @@ If the input is invalid, the app will redirect to the current page, and the erro
 
 The initial page:
 
-![fig1](https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.51%20AM.png)
+<img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.15.51%20AM.png" width="375" alt="home page"/>
 
 When we add a valid member:
 
