@@ -33,7 +33,7 @@ When we add a invalid member:
 
 The wrong message:
 
-<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.14.29%20AM.png" width="500" alt="the form can check the invalid input"/></div>
+<div align=center><img src="https://github.com/EranXu/teamMemberProject/blob/main/img/Screen%20Shot%202021-12-23%20at%2012.14.29%20AM.png" width="700" alt="the form can check the invalid input"/></div>
 
 ## Bug Log
 
