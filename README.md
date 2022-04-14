@@ -1,17 +1,8 @@
 # Team Member Project - Ver 2.0
 a mobile app by `Django`, `MySQL` and `HTML`, using python virtual environment.
 
-## Estimated Time
-15 hrs
-
-5 hrs / day (Dec.11 - Dec.13) 
-
 ## About
-Although there is no deadline for this project, I want to complete it as quickly as possible. It is a pity that my semester enters the final week, so I can only use the weekend time to do this totally new project for me.
-
-I know the cost time may be very long, because I started from 0, and I recorded all the problems I encountered. Almost every problem allows me to deal with more than 1 hour. But I finally finished it:)
-
-I really hope you can see my attitude and my sincerity. I can do my best to learn the unknown knowledge. This is my attitude. I hope you can give me a chance to prove myself.
+I recorded all the problems I encountered. Almost every problem allows me to deal with more than 1 hour. But I finally finished it:)
 
 ## Version 2.0
 
